@@ -1,0 +1,92 @@
+body{
+    background-color: #F3F3F3;
+    font-family: "Lato",sans-serif;
+}
+
+.header{
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 1.5em 5em;
+    background: #3B5399;
+    min-height: 550px;
+    min-width: 400px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.headerContainer{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.headerLeft,
+.headerRight{
+    width: 47%;
+}
+.headerLeft,
+.headerRight{
+    min-width: 18em;
+}
+
+.headerLeft{
+    text-align: center;
+    float: left;
+    margin-right: 2em;
+}
+
+.header .slogan{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.header .mainPhoto{
+    margin-top: 2em;
+}
+
+.headerRight{
+    float: left;
+    font-size: 1.3em;
+    padding-right: 1em;
+}
+
+.headerRight li{
+    font-style: italic;
+    font-size: 1em;
+}
+
+.buttonRegister{
+    text-align: center;
+}
+.buttonRegister a{
+    display: inline-block;
+    border: 1px solid #ac1100;
+    border-radius: 5px;
+    box-shadow: 0 0.25em 0 0 #a71000, 0 4px 9px rgba(0, 0, 0, 0.75);
+    background: #ff2a13;
+    max-width: 350px;
+    padding: 0.7em 2em;
+    margin: 0.5em auto;
+    text-decoration: none;
+    transition: all 0.15s linear 0s;
+    color:#fff;
+}
+
+.buttonRegister a:hover{
+    background-color: #df1600;
+    border-color: #600900;
+}
+.buttonRegister a:visited,
+.buttonRegister a:active{
+    text-decoration: none;
+    color: #fff;
+}
+.buttonRegister a:focus{
+    outline: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
