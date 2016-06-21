@@ -1,0 +1,77 @@
+body{
+    background: #292929;
+    font-family: "Lato",sans-serif;
+}
+
+.downloadWrapper{
+    margin: 4.7em auto;
+    background: #fff;
+    min-height: 550px;
+    line-height: 1.4;
+    width: 600px;
+}
+
+.downloadWrapper .header{
+    box-sizing: border-box;
+    position: relative;
+    background: #3B5399;
+    height: 3em;
+    color: #fff;
+    font-size: 1.8em;
+}
+.downloadWrapper .header span{
+    position: absolute;
+    left: 180px;
+}
+
+.downloadWrapper .content{
+    padding: 0 2em;
+    color: #333;
+}
+
+.bookDescription{
+}
+
+
+
+
+
+
+
+
+
+.bookRecive{
+    text-align: center;
+}
+.bookRecive a{
+    display: inline-block;
+    border: 1px solid #ac1100;
+    border-radius: 5px;
+    box-shadow: 0 0.25em 0 0 #a71000, 0 4px 9px rgba(0, 0, 0, 0.75);
+    background: #ff2a13;
+    max-width: 350px;
+    padding: 0.7em 2em;
+    margin: 0.5em auto;
+    text-decoration: none;
+    transition: all 0.15s linear 0s;
+    color:#fff;
+}
+
+.bookRecive a:hover{
+    background-color: #df1600;
+    border-color: #600900;
+}
+.bookRecive a:visited,
+.bookRecive a:active{
+    text-decoration: none;
+    color: #fff;
+}
+.bookRecive a:focus{
+    outline: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
